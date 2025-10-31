@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Large files that exceed GitHub's limits
+reference/SUMMIT POOLS2014.15_05.mp4
+reference/Animation.mp4
+reference/SMP POOL DESIGN VIDEO.wmv
+reference/Models/pool 5.3-corner.stl
+reference/VIDEO/
+*.wmv
+# Keep smaller reference files but exclude very large ones
+# reference/Models/*.stl
