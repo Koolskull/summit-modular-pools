@@ -23,12 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large files that exceed GitHub's limits
-reference/SUMMIT POOLS2014.15_05.mp4
-reference/Animation.mp4
-reference/SMP POOL DESIGN VIDEO.wmv
-reference/Models/pool 5.3-corner.stl
-reference/VIDEO/
-*.wmv
-# Keep smaller reference files but exclude very large ones
-# reference/Models/*.stl
+# Large files are now handled by Git LFS (see .gitattributes)
