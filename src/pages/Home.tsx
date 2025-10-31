@@ -7,10 +7,14 @@ function Home() {
       <section className="hero-section">
         <div className="hero-content">
           <h1>Summit Modular Pools</h1>
-          <h2>The Future of Pool Installation</h2>
+          <h2>Finally, the pool you've always wanted</h2>
           <p className="hero-description">
-           Summit Modular Pools is a patented, internationally registered new concept of portable, durable, flexible and reliable pools for above and below ground installation, with all the features and enjoyment provided by permanent concrete pools plus the convenience and low cost of above ground pools.
+           Summit Modular Pools is a new concept of portable, durable, flexible and reliable pools for above and below ground installation, with all the features and enjoyment provided by permanent concrete pools plus the convenience and low cost of above ground pools.
           </p>
+          <p className="hero-description">
+            These modular pools are designed to be easy to install, and easy to maintain.
+          </p>
+          <br></br>
           <button className="cta-button">Learn More</button>
         </div>
         <div className="hero-video-container">
@@ -50,9 +54,13 @@ function Home() {
           </div>
           <div className="text-content">
             <h2>Quick & Easy Installation</h2>
+
             <p>
-              Here, we can see the installation of tubular metal supports between any two modules, showing two rubber cords with nuts and bolts tighetning the joints of the modules. After the pool is completely assembled, various decorative finish options can be installed. 
+              Here we see the assembly of the modular componenets connected with tubular supports and the installation of the waterproof system. 
             </p>
+              {/* <p>
+                Here, we can see the installation of tubular metal supports between modules, showing two rubber cords with nuts and bolts tighetning the joints of the modules. After the pool is completely assembled, various decorative finish options can be installed. 
+              </p> */}
           </div>
         </div>
       </section>
@@ -78,7 +86,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Customization Section */}
+      {/* Customization Section
       <section className="content-section reverse">
         <div className="section-content">
           <div className="image-placeholder">
@@ -87,7 +95,7 @@ function Home() {
           <div className="text-content">
             <h2>Below and Above Ground Installations</h2>
             <p>
-              Example of a below ground installation of an elongated pool configuration. The assembled pool without decorative skirts is lowered in place. All space surrounding the assembly is filled with sand or dirt with the help of a vibrator for compaction.  The filling is filled up to any desired level and finished with your preferred material.
+             Another feature of this modular pool is the opportunity for installation above and below ground.
             </p>
             <ul className="benefits-list">
               <li>Multiple size options</li>
@@ -97,19 +105,19 @@ function Home() {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Maintenance Section */}
       <section className="content-section">
         <div className="section-content">
           <div className="text-content">
-            <h2>Physical & Chemical Properties</h2>
+            <h2>Exclusive Features</h2>
             <ul className="benefits-list">
+              <li>Strong Structural Integrity compared to flexible liner pools</li>
+              <li>High Density Polyethelane (HDPE) resistant to cracks and extreme temperatures</li>
               <li>No mold build up on interior surface</li>
-              <li>High Density Polyethelane resistant to cracks and heat</li>
-              <li>No liner required</li>
-              <li>Chemical, color and UV ray resistant</li>
-            </ul>
+              <li>Ideal for use with robotic pool cleaners and commonly useed pool equipment, Unlike vinyl membrane liners that will be damaged by these tools</li>
+              </ul>
           </div>
           <div className="image-placeholder">
             <span>[IMAGE - Easy maintenance features]</span>
@@ -117,71 +125,8 @@ function Home() {
         </div>
       </section>
 
-      {/* Cost Section */}
-      <section className="content-section reverse">
-        <div className="section-content">
-          <div className="image-placeholder">
-            <span>[IMAGE - Value comparison chart]</span>
-          </div>
-          <div className="text-content">
-            <h2>Exceptional Value</h2>
-            <ul className="benefits-list">
-              <li>30-50% less than traditional pools</li>
-              <li>Lower installation costs</li>
-              <li>Reduced long-term maintenance expenses</li>
-              <li>Flexible financing options available</li>
-            </ul>
-          </div>
-        </div>
-      </section>
 
-      {/* Environmental Section */}
-      <section className="content-section">
-        <div className="section-content full-width">
-          <div className="text-content centered">
-            <h2>Environmentally Conscious</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div className="three-column-grid">
-            <div className="grid-item">
-              <div className="image-placeholder small">
-                <span>[ICON - Water conservation]</span>
-              </div>
-              <h3>Water Conservation</h3>
-              <p>
-                Reduced water usage through efficient filtration and minimal evaporation design. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-            <div className="grid-item">
-              <div className="image-placeholder small">
-                <span>[ICON - Energy efficiency]</span>
-              </div>
-              <h3>Energy Efficient</h3>
-              <p>
-                Advanced pump technology uses 60% less energy than traditional pool systems. 
-                Duis aute irure dolor in reprehenderit.
-              </p>
-            </div>
-            <div className="grid-item">
-              <div className="image-placeholder small">
-                <span>[ICON - Recyclable materials]</span>
-              </div>
-              <h3>Sustainable Materials</h3>
-              <p>
-                100% recyclable components made from eco-friendly materials. Excepteur sint 
-                occaecat cupidatat non proident.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonial Section */}
+      {/* Testimonial Section
       <section className="testimonial-section">
         <h2>What Our Customers Say</h2>
         <div className="testimonials-grid">
@@ -207,19 +152,15 @@ function Home() {
             <p className="testimonial-author">- Customer Name, Location</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="cta-section">
-        <h2>Ready to Transform Your Backyard?</h2>
+        <h2>For more information, please contact us!</h2>
         <p>
-          Contact us today for a free consultation and quote. Our team of experts is ready to 
-          help you design the perfect modular pool for your space and budget.
+          John D. Carpenter - 626-376-8458
+          John@JDCpatentlaw.com
         </p>
-        <div className="cta-buttons">
-          <button className="cta-button primary">Get a Free Quote</button>
-          <button className="cta-button secondary">Schedule Consultation</button>
-        </div>
       </section>
     </div>
   )

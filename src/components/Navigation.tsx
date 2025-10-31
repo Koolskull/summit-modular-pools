@@ -11,18 +11,19 @@ function Navigation() {
           <img src="/Logo/logo.svg" alt="Summit Modular Pools Logo" className="logo-image" />
         </Link>
         <div className="nav-links">
-          <Link 
-            to="/" 
-            className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
+          <a 
+            href="mailto:John@JDCpatentlaw.com" 
+            className="nav-link"
           >
-            Home
-          </Link>
-          <Link 
+            Contact Us
+          </a>
+          {/* Temporarily hidden for MVP - to be added later with more detail */}
+          {/* <Link 
             to="/products" 
             className={`nav-link ${location.pathname === '/products' ? 'active' : ''}`}
           >
             3D Product Viewer
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>
